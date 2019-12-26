@@ -2,7 +2,7 @@
 Test y pruebas para aprender cython y usarlo junto a blender.
 
 # Para ver que archivos merecen mas la pena optimizar:
-$ python -m cProfile -s time main.py
+$ python3 -m cProfile -s time main.py
 
 # Para compilar on the fly:
 $ cythonize --inplace --annotate archivo.py
