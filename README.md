@@ -1,4 +1,4 @@
-# Aprendiedno Cython basico
+# Aprendiedno Cython básico
 Test y pruebas para aprender cython y usarlo junto a blender.
 
 # Para ver que archivos merecen mas la pena optimizar:
