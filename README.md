@@ -1,2 +1,2 @@
 # cython_learn
-cython test
+Quickly cython test
