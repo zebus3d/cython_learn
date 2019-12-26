@@ -1,5 +1,5 @@
-# cython_learn
-Quickly cython test
+# Aprendiedno Cython basico
+Test y pruebas para aprender cython y usarlo junto a blender.
 
 # Para ver que archivos merecen mas la pena optimizar:
 $ python -m cProfile -s time main.py
