@@ -1,13 +1,13 @@
-# Aprendiedno Cython básico
-Test y pruebas para aprender cython y usarlo junto a blender.
+# Learning basic Cython
+Test for lean cython with blender.
 
-# Para ver que archivos merecen mas la pena optimizar:
+# To see which files are most worth optimizing:
 $ python3 -m cProfile -s time main.py
 
-# Para compilar on the fly:
+# For compile on the fly:
 $ cythonize --inplace --annotate archivo.py
 
-# Compilar normal:
+# Normal Compilation:
 $ python3 setup.py build_ext --inplace
 
-El .so en unix es la librería (creo que en windows sera un .dll) que se importa en el script python norma. 
+In Unix use ".so" files (in windows ".dll" i believe) these files are imported into your normal python code. 
