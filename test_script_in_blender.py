@@ -1,5 +1,5 @@
 import sys, os.path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname("core"), '.')) + '/github/cython_learn/')
+sys.path.append(os.getcwd() + '/github/cython_learn/')
 
 import bpy
 import mycode
