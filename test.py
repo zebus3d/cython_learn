@@ -1,3 +1,5 @@
-import code as mycode
+import mycode
 
-mycode.remove_mesh_from_meshes(bpy.data.meshes)
+mycode.call_remove_mesh_from_meshes(bpy.data.meshes)
+
+

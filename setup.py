@@ -5,6 +5,6 @@ from Cython.Build import cythonize
 # python3 setup.py build_ext --inplace
 
 setup(
-    name = 'core',
-    ext_modules = cythonize("code.pyx", annotate=True)
+    name = 'mycode',
+    ext_modules = cythonize("mycode.pyx", annotate=True)
 )
