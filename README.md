@@ -24,6 +24,6 @@ $ cythonize --inplace --annotate archivo.py
 
 # Normal Compilation:
 $ python3 setup.py build_ext --inplace or
-$ python3 setup.py build_ext --inplace && mv mycode.cpython-36m-x86_64-linux-gnu.so mycode.so
+$ python3 setup.py build_ext --inplace && mv mycode.cpython-37m-x86_64-linux-gnu.so mycode.so
 
 In Unix use ".so" files (in windows ".dll" i believe) these files are imported into your normal python code. 
