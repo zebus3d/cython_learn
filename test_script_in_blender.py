@@ -7,7 +7,8 @@ from . import mycode
 
 start = datetime.now()
 
-users = 0
+users = 0 # <-- if have 0 users, delete this orphan data mesh
+
 mylist = bpy.data.meshes[:]
 # without cdef:
 #mycode.remove_mesh_from_meshes(mylist, users)
