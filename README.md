@@ -24,6 +24,8 @@ $ make -j 2
 
 $ sudo make install
 
+$ sudo chown $USER:$USER -R $HOME/.cache
+
 
 Note: in pycharm put existent enviroment: /your/path/Python-3.7.4/Python/
 
