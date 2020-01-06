@@ -7,11 +7,12 @@ from . import mycode
 
 start = datetime.now()
 
+users = 0
 mylist = bpy.data.meshes[:]
 # without cdef:
-#mycode.remove_mesh_from_meshes(mylist, 1)
+#mycode.remove_mesh_from_meshes(mylist, users)
 
 # with cdef:
-mycode.call_remove_mesh_from_meshes(mylist, 1)
+mycode.call_remove_mesh_from_meshes(mylist, users)
 
 print("total time: ", datetime.now() - start)
