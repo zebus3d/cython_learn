@@ -16,7 +16,7 @@ Download python 3.7.4
 
 cd folder
 
-$ sudo apt install zlib1g-dev libffi-dev
+$ sudo apt install zlib1g-dev libffi-dev libssl-dev
 
 $ sudo apt purge pytho3-pip
 
