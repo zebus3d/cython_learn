@@ -18,13 +18,12 @@ cd folder
 
 sudo apt install zlib1g-dev libffi-dev
 
-$ ./configure
+$ ./configure --with-ssl
 
-$ make
+$ make -j 2
 
 $ sudo make install
 
-$ sudo ln -s /usr/local/bin/python3.7 /usr/bin/python3.7
 
 Note: in pycharm put existent enviroment: /your/path/Python-3.7.4/Python/
 
