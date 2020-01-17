@@ -37,7 +37,7 @@ $ cythonize --inplace --annotate archivo.py
 # Normal Compilation:
 $ python3 setup.py build_ext --inplace 
 
-In Unix use ".so" files (in windows ".pyd") these files are imported into your normal python code. 
+In Unix use ".so" files, in windows ".pyd", these files are imported into your normal python code. 
 
 # Automatic convert .pyx (inside is normal python) to .so compiled:
 # Because writing a setup.py each time is painful.
