@@ -40,7 +40,7 @@ $ python3 setup.py build_ext --inplace
 In Unix use ".so" files, in windows ".pyd", these files are imported into your normal python code. 
 
 # For compile in Windows 10:
-You need "MS Windows SDK for Windows 7 and .NET Framework 4", and "Visual Studio Build Tools 2019".
+You need ["MS Windows SDK for Windows 7 and .NET Framework 4"](https://www.microsoft.com/en-us/download/details.aspx?id=8279), and "Visual Studio Build Tools 2019".
 then open the Developer Command Pront vor VS 2019 and compile from there. It is not recommended to use MinGW.
 
 # Automatic convert .pyx to .so compiled (Because writing a setup.py each time is painful):
