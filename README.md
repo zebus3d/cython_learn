@@ -39,7 +39,7 @@ $ python3 setup.py build_ext --inplace or
 
 $ python3 setup.py build_ext --inplace && mv mycode.cpython-37m-x86_64-linux-gnu.so mycode.so
 
-In Unix use ".so" files (in windows ".dll" i believe) these files are imported into your normal python code. 
+In Unix use ".so" files (in windows ".pyd") these files are imported into your normal python code. 
 
 # Automatic convert .pyx (inside is normal python) to .so compiled:
 # Because writing a setup.py each time is painful.
